@@ -95,3 +95,10 @@ sudo pip install virtualenv
 virtualenv angr
 source angr/bin/activate
 pip install angr --upgrade
+
+
+# Install qira
+cd ~/tools/
+git clone https://github.com/BinaryAnalysisPlatform/qira.git
+cd qira/
+./install.sh
