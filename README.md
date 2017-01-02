@@ -71,6 +71,29 @@ python
 >>>
 ```
 
+### qira
+
+Run the following command in the VM:
+
+```
+qira -Ss ./target
+
+```
+
+Run the following command in the host:
+
+```
+# Standard input / output of program at TCP 4000 port
+nc -v 192.168.33.10 4000
+```
+
+Access this URL in the host's browser:
+
+```
+# TCP 3002 port on Web UI
+192.168.33.10:3002
+```
+
 ### Shared folder
 
 Drop files in the `host-share` folder on your host to find them on your VM at `/home/vagrant/host-share`
