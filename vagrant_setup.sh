@@ -102,3 +102,15 @@ cd ~/tools/
 git clone https://github.com/BinaryAnalysisPlatform/qira.git
 cd qira/
 ./install.sh
+
+# setup pwndbg(install requirement python3 lib)
+sudo pip3 insatll psutil
+sudo pip3 install pyelftools
+sudo pip3 install future
+
+# locale setting
+echo "export LC_ALL=en_US.UTF-8" >> ~/.bashrc
+
+# copy custme files
+cd
+cp -r ./host-share/custme_files .
