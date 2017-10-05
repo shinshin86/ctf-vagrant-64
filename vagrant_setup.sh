@@ -111,6 +111,6 @@ sudo pip3 install future
 # locale setting
 echo "export LC_ALL=en_US.UTF-8" >> ~/.bashrc
 
-# copy custme files
+# copy custom files
 cd
-cp -r ./host-share/custme_files .
+cp -r ./host-share/custom_files .
